@@ -1,6 +1,6 @@
 import React from 'react';
 // import Image from 'next/image';
-import minhaFoto from '../../public/foto-perfil-thomas.jpg';
+import minhaFoto from '../img/foto-perfil-thomas.jpg';
 import styles from './tailwindStyles/aboutStyles';
 
 const About = () => {
@@ -22,8 +22,6 @@ const About = () => {
             src={ minhaFoto }
             alt="Profile"
             className={ styles.aboutImage }
-            width={ 250 }
-            height={ 250 }
             placeholder="blur"
           />
         </div>
