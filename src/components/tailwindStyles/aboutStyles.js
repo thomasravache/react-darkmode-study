@@ -1,11 +1,11 @@
 const styles = {
-  aboutContainer: 'container px-4 mx-auto',
+  aboutContainer: 'container px-4 max-w-4xl mx-auto mt-16 antialiased',
   aboutContentContainer: 'lg:space-x-5 lg:flex lg:flex-row items-center lg:mx-4 flex flex-col-reverse text-center lg:text-left',
   aboutPersonalInfo: 'lg:px-4 lg:mt-12',
   aboutHeading: 'text-2xl font-bold text-gray-900 lg:text-5xl dark:text-white',
   aboutTextContainer: 'mt-6 text-gray-800 dark:text-white',
   aboutImageContainer: 'flex-shrink-0 lg:mt-12 lg:px-4 mb-10',
-  aboutImage: 'rounded-full',
+  aboutImage: 'w-64 h-64 rounded-full',
 }
 
 export default styles;
