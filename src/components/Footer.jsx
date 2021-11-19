@@ -7,7 +7,7 @@ const Footer = () => {
       <div className={ styles.footerSubContainer }>
         <div className={ styles.footerLine }></div>
         <div className={ styles.footerContentContainer }>
-          <p>Built with Next.js, Tailwind and Vercel</p>
+          <p>Built with React.js, Tailwind and Vercel</p>
           <div className={ styles.footerLinksContainer }>
             <a
               href="/"
